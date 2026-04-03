@@ -3,6 +3,7 @@
 Automated detection of greenwashing-risk language in corporate sustainability reports using domain-adapted NLP. This project applies a fine-tuned ClimateBERT classifier to sustainability disclosures from fashion and clean beauty brands, testing whether greenwashing-risk language manifests differently across industries.
 
 > **Status:** In development — DSAN 5550 course project, Georgetown University, Spring 2026.
+> Currently, in proof of concept stage. Current plans to add more reports. Refine the lexicon for environmental claims. Improve the quality. Recheck labelling and read more on greenwashing. 
 
 ---
 
@@ -29,7 +30,7 @@ All reports are sourced from company investor relations pages (2024–2025 publi
 
 ---
 
-## Pipeline
+## Pipeline - need to edit with added knn and other models 
 
 ```
 PDF reports
@@ -48,7 +49,7 @@ PDF reports
 
 ---
 
-## Repository Structure
+## Repository Structure -- need to do 
 
 ```
 green-claims-nlp/
@@ -56,16 +57,7 @@ green-claims-nlp/
 │   ├── raw/                  # Original PDFs (not committed — see Data section)
 │   └── extracted/            # Filtered sustainability passages (released as public dataset)
 ├── notebooks/
-│   ├── 01_preprocessing.ipynb
-│   ├── 02_feature_extraction.ipynb
-│   ├── 03_classification.ipynb
-│   └── 04_cross_industry_analysis.ipynb
 ├── src/
-│   ├── parse.py              # PDF parsing with pdfplumber
-│   ├── filter.py             # ClimateBERT topic filtering
-│   ├── features.py           # Feature extraction
-│   ├── classify.py           # Model training and inference
-│   └── evaluate.py           # Metrics and external validation
 ├── models/                   # Saved model checkpoints (gitignored)
 ├── results/                  # Risk scores, evaluation outputs
 ├── pyproject.toml            # Project metadata and dependencies (uv)
@@ -143,17 +135,13 @@ Mandy Sun — DSAN 5550, Georgetown University, Spring 2026
 Notes on things to add: 
 - scale of consumer & retails in climate change contribution 
 - right now this only tracks for public-facing reports 
-
-First, when you report brand-level scores, report them as proportions not raw counts — percentage of passages flagged rather than number of passages flagged. That at least controls for report length.
-Second, in your Discussion section, add a limitation paragraph explicitly noting that reports follow different frameworks and vary significantly in length and structure, and that your passage-level analysis cannot control for deliberate omissions — a company that simply doesn't discuss a topic won't have passages flagged for that topic.
-Third, consider doing a quick descriptive table showing how many passages each brand contributed after filtering — something like H&M: 340 passages, Patagonia: 180 passages, Lush: 90 passages. That gives the reader context for interpreting the scores and shows you're aware of the imbalance.
-
-
-- can we spot corporate bs
-
-quantified claim vs aspirational claim 
+- when report brand-level scores, report them as proportions not raw counts, percentage of passages flagged rather than number of passages flagged. That at least controls for report length.
+- in  Discussion section, add a limitation paragraph explicitly noting that reports follow different frameworks and vary significantly in length and structure, and that your passage-level analysis cannot control for deliberate omissions — a company that simply doesn't discuss a topic won't have passages flagged for that topic.
+- consider doing a quick descriptive table showing how many passages each brand contributed after filtering --- H&M: 340 passages, Patagonia: 180 passages, Lush: 90 passages. 
 
 
-- determine a way to pull the table 
+- quantified claim vs aspirational claim 
 
-- self defined terms... .
+- determine a way to pull the table..  
+
+- self defined terms... ambiguity allows for breach of acocuntabi

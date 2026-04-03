@@ -1,0 +1,7 @@
+brand,industry,role,passage_count,mean_knn_prob,mean_tfidf_prob,pct_knn_flagged,own_ops_prob,supply_chain_prob
+L'Oreal,clean_beauty,greenwashing,19,0.3684,0.455,0.2632,,0.4762
+Sephora,clean_beauty,greenwashing,95,0.3017,0.4092,0.1474,0.1666,0.3333
+Zara,fashion,greenwashing,385,0.0978,0.3563,0.0416,0.086,0.1018
+H&M,fashion,greenwashing,414,0.095,0.349,0.07,0.0909,0.1033
+Patagonia,fashion,positive_control,306,0.0599,0.3305,0.0163,0.1852,0.0482
+Lush,clean_beauty,positive_control,60,0.0333,0.3168,0.0,,0.0454

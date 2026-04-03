@@ -1,0 +1,7 @@
+brand,industry,role,passage_count,pct_of_total
+H&M,fashion,greenwashing,414,32.4
+Zara,fashion,greenwashing,385,30.1
+Patagonia,fashion,positive_control,306,23.9
+Sephora,clean_beauty,greenwashing,95,7.4
+Lush,clean_beauty,positive_control,60,4.7
+L'Oreal,clean_beauty,greenwashing,19,1.5

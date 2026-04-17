@@ -1,0 +1,9 @@
+Model,Outcome,Count
+kNN (k=7),True Positive (correctly flagged greenwash),12
+kNN (k=7),True Negative (correctly cleared substantive),23
+kNN (k=7),False Positive (substantive flagged as greenwash),11
+kNN (k=7),False Negative (greenwash missed),2
+TF-IDF + LR,True Positive (correctly flagged greenwash),10
+TF-IDF + LR,True Negative (correctly cleared substantive),28
+TF-IDF + LR,False Positive (substantive flagged as greenwash),6
+TF-IDF + LR,False Negative (greenwash missed),4

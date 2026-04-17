@@ -1,0 +1,6 @@
+brand,is_b_corp,fti_transparency,cdp_grade,stand_earth_grade,msci_grade,sustainalytics_risk_level
+Lush,False,N/A,NA,N/A,AA,Low
+Loccitane,True,N/A,NA,N/A,AA,Low
+Loreal,False,N/A,A,N/A,AAA,Low
+Unilever,True,NA,NA,C,A,Medium
+Sephora,False,N/A,NA,N/A,A,Medium

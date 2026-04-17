@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Detecting greenwashing-risk language in corporate sustainability reports"
 requires-python = ">=3.10"
 dependencies = [
-    "pdfplumber>=0.10",
+    "pymupdf4llm>=0.0.17",
     "nltk>=3.8",
     "spacy>=3.7",
     "sentence-transformers>=2.6",

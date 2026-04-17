@@ -1,0 +1,12 @@
+brand,is_b_corp_2025,fti_transparency_2025,cdp_grade_2025,stand_earth_grade,msci_grade,sustainalytics_risk_level
+Patagonia,True,NA,NA,C+,AA,Low 
+Eileen Fisher,True,NA,NA,B-,A,Low 
+HM,False,71%,A,B+,AA,Medium   
+Zara,False,35%,A,C,BBB,Medium  
+Shein,False,13%,NA,F,CCC,Severe 
+Lululemon,False,39%,B,C,AA,Low  
+Kering (Gucci),False,47%,NA,C+,AAA,Low  
+Puma,False,51%,A,C,A,Low  
+Reformation,False,NA,NA,NA,A,Low
+Everlane,False,NA,NA,NA,BBB,Medium
+RalphLauren,False,28%,C,D+,BBB,Medium  

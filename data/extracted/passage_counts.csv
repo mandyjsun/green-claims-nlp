@@ -1,0 +1,17 @@
+brand,industry,role,passage_count,pct_of_total
+Puma,fashion,ambiguous,758,16.9
+H&M,fashion,greenwashing,553,12.3
+Zara,fashion,greenwashing,524,11.7
+Unilever,clean_beauty,greenwashing,492,11.0
+Patagonia,fashion,positive_control,448,10.0
+Shein,fashion,greenwashing,307,6.8
+L'Occitane,clean_beauty,positive_control,279,6.2
+Lululemon,fashion,greenwashing,235,5.2
+Everlane,fashion,ambiguous,198,4.4
+Ralph Lauren,fashion,greenwashing,172,3.8
+Reformation,fashion,ambiguous,171,3.8
+Sephora,clean_beauty,ambiguous,139,3.1
+Kering,fashion,greenwashing,89,2.0
+Lush,clean_beauty,positive_control,71,1.6
+Eileen Fisher,fashion,positive_control,26,0.6
+L'Oreal,clean_beauty,greenwashing,23,0.5

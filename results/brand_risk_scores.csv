@@ -1,7 +1,17 @@
 brand,industry,role,passage_count,mean_knn_prob,mean_tfidf_prob,pct_knn_flagged,own_ops_prob,supply_chain_prob
-L'Oreal,clean_beauty,greenwashing,19,0.3684,0.455,0.2632,,0.4762
-Sephora,clean_beauty,greenwashing,95,0.3017,0.4092,0.1474,0.1666,0.3333
-Zara,fashion,greenwashing,385,0.0978,0.3563,0.0416,0.086,0.1018
-H&M,fashion,greenwashing,414,0.095,0.349,0.07,0.0909,0.1033
-Patagonia,fashion,positive_control,306,0.0599,0.3305,0.0163,0.1852,0.0482
-Lush,clean_beauty,positive_control,60,0.0333,0.3168,0.0,,0.0454
+Reformation,fashion,ambiguous,171,0.5397,0.4664,0.6842,0.6964,0.5499
+L'Oreal,clean_beauty,greenwashing,23,0.5342,0.5121,0.4783,,0.6786
+Eileen Fisher,fashion,positive_control,26,0.533,0.457,0.5385,,0.6104
+Shein,fashion,greenwashing,307,0.5198,0.4873,0.5896,0.5555,0.5571
+Everlane,fashion,ambiguous,198,0.5195,0.4832,0.5505,0.4429,0.5318
+Patagonia,fashion,positive_control,448,0.5061,0.4423,0.529,0.3214,0.5744
+Lululemon,fashion,greenwashing,235,0.4705,0.4561,0.4468,0.4286,0.5164
+Ralph Lauren,fashion,greenwashing,172,0.4435,0.4607,0.3837,0.2857,0.5023
+L'Occitane,clean_beauty,positive_control,279,0.4368,0.4763,0.3405,0.4286,0.485
+H&M,fashion,greenwashing,553,0.4363,0.451,0.4195,0.3793,0.5028
+Lush,clean_beauty,positive_control,71,0.4044,0.4489,0.2817,,0.4348
+Kering,fashion,greenwashing,89,0.4013,0.4584,0.236,,0.4219
+Unilever,clean_beauty,greenwashing,492,0.3484,0.4402,0.25,0.2532,0.4509
+Sephora,clean_beauty,ambiguous,139,0.3464,0.4797,0.0935,0.3846,0.332
+Zara,fashion,greenwashing,524,0.3462,0.4271,0.2901,0.4048,0.4519
+Puma,fashion,ambiguous,758,0.3438,0.4344,0.2005,0.3214,0.3691

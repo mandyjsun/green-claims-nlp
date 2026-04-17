@@ -1,0 +1,5 @@
+Model,Metric,Value,CI Lower,CI Upper
+kNN (k=7),f1_macro,0.714,0.59,0.831
+kNN (k=7),auc_roc,0.874,0.776,0.962
+TF-IDF + LR,f1_macro,0.758,0.607,0.874
+TF-IDF + LR,auc_roc,0.891,0.783,0.977

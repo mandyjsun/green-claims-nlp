@@ -2,9 +2,4 @@
 .claude
 uv.lock 
 
-data/raw/hm-2025.pdf
-data/raw/loreal-2025.pdf
-data/raw/lush-2025.pdf
-data/raw/patagonia-2025.pdf
-data/raw/sephora-2025.pdf
-data/raw/zara-2025.pdf
+data/raw/... 
